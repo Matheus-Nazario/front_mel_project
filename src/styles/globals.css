@@ -1,0 +1,168 @@
+/* CSS Global */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  min-height: 100%;
+}
+
+::selection {
+  @apply bg-brand-500 text-white;
+}
+
+.container {
+  @apply flex items-center w-full max-w-6xl mx-auto px-8;
+}
+
+.upAndDown {
+  animation: spin 1s infinite ease;
+  animation-direction: alternate;
+}
+
+.titulo {
+  font-size: 3000px;
+}
+
+.clippy {
+  clip-path: polygon(52% 8%, 100% 0, 100% 100%, 38% 100%);
+}
+
+@keyframes spin {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+
+/* Swiper CSS */
+.swiper-container {
+  width: 100%;
+  height: 28vw;
+  transition: opacity 0.6s ease;
+  &.swiper-container-coverflow {
+    padding-top: 2%;
+  }
+  &.loading {
+    opacity: 0;
+    visibility: hidden;
+  }
+  &:hover {
+    .swiper-button-prev,
+    .swiper-button-next {
+      transform: translateX(0);
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.swiper-wrapper {
+  /* Se houver alguma estilização específica para a wrapper do Swiper, adicione aqui */
+}
+
+.swiper-slide {
+  background-position: center;
+  
+  .slide-inner {
+    /* Estilos internos de cada slide, se houver */
+  }
+  .entity-img {
+    display: none;
+  }
+  .content {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 50%;
+    padding-left: 5%;
+    color: #fff;
+    .title {
+      font-size: 2.6em;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    .caption {
+      display: block;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+  }
+}
+
+[class^='swiper-button-'] {
+  width: 44px;
+  opacity: 0;
+  visibility: hidden;
+  @extend %transition_all_03s;
+}
+
+.swiper-button-prev {
+  transform: translateX(50px);
+}
+
+.swiper-button-next {
+  transform: translateX(-50px);
+}
+
+.swiper-container-horizontal {
+  > .swiper-pagination-bullets {
+    .swiper-pagination-bullet {
+      margin: 0 9px;
+      position: relative;
+      width: 12px;
+      height: 12px;
+      background-color: #fff;
+      opacity: 0.4;
+      @extend %transition_all_03s;
+      &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 18px;
+        height: 18px;
+        transform: translate(-50%, -50%);
+        border: 0px solid #fff;
+        border-radius: 50%;
+        @extend %transition_all_03s;
+      }
+      &:hover,
+      &.swiper-pagination-bullet-active {
+        opacity: 1;
+      }
+      &.swiper-pagination-bullet-active {
+        &::before {
+          border-width: 1px;
+        }
+      }
+    }
+  }
+}
+
+/* Mediaqueries (caso necessário) */
+@media (max-width: 1180px) {
+  .swiper-slide {
+    .content {
+      .title {
+        font-size: 25px;
+      }
+      .caption {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .swiper-container {
+    height: 40vw;
+    &.swiper-container-coverflow {
+      padding-top: 0;
+    }
+  }
+}
