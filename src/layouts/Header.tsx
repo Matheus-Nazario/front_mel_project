@@ -17,6 +17,14 @@ export function Header() {
     setIsToggleMenuMobile(!isToggleMenuMobile);
   }
 
+  const handleClick = (id: string) => {
+    const element = document.getElementById(id);
+
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   useEffect(() => {
     setIsMenuTextYellow(isToggleMenuMobile);
   }, [isToggleMenuMobile]);
@@ -53,7 +61,7 @@ export function Header() {
                 className="hover:text-yellow-500  text-black-500 offset-2 font-medium hover:brightness-90 transition-all border-b border-gray-600 pb-3"
               >
                 <NavLink title={item.title} url={item.url}>
-                  {item.title}
+                  {item.title} 
                 </NavLink>
               </div>
             );
@@ -76,9 +84,9 @@ export function Header() {
             } else {
               return (
                 <li key={index}>
-                  <NavLink title={item.title} url={item.url}>
+                  <a title={item.title} onClick={() => handleClick(item.url)} style={{cursor: 'pointer'}}>
                     {item.title}
-                  </NavLink>
+                  </a>
                 </li>
               );
             }

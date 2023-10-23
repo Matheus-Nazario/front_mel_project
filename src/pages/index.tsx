@@ -11,16 +11,13 @@ import {  MouseSimple } from 'phosphor-react';
 // Swiper imports modules
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperImage from '@/components/default/Swiper';
+import About from '@/components/default/About';
 
 
 // Import fade effect
 const { Fade } = require('react-reveal');
 
 export default function PageHome({ service }: HomeProps) {
-
-
-
-
 
   return (
     <>
@@ -29,7 +26,7 @@ export default function PageHome({ service }: HomeProps) {
         <link rel="shortcut icon" href="/logos/LogoMel.svg" type="image/x-icon" />
       </Head>
 
-      <section className="mt-[90px]  md:py-0 md:min-h-[calc(100vh-90px)] flex bg-banner semi-transparent-bg">
+      <section className="mt-[90px]  md:py-0 md:min-h-[calc(100vh-90px)] flex bg-banner semi-transparent-bg" id="home">
         <div className="container flex-1 relative">
           <div className="flex-1 md:flex-2 lg:flex-2">
             <Fade top>
@@ -77,53 +74,27 @@ export default function PageHome({ service }: HomeProps) {
         </div>
       </section>
 
-
-
-
-
-
       <section
-        id="scrollCeo"
         className=" bg-left md:bg-center  flex items-center "
       >
-
-        <div className="container flex-1 relative">
-          <div className="flex flex-col md:flex-row items-center w-full max-w-6xl mx-auto px-8 py-20">
-            <div className="flex-1 text-white md:pr-20">
-              <h1 className="mt-5 relative text-xl before:content-[*] before:block before:w-10 before:h-2 bg-black-500 before:bg-black-500 before:absolute text-black">
-                Te ensino a crescer no mundo das unhas! </h1>
-              <Fade top>
-                <p className="mt-7 font-extralight text-gray-900 text-md md:text-lg">
-                  “Transforme sua paixão por unhas em um negócio de sucesso - eu te mostro como empreender nesse universo encantador.”
-                </p>
-              </Fade>
-              <Fade bottom>
-                <h1 className="mt-5 relative text-xl before:content-[*] before:block before:w-10 before:h-2 bg-black-500 before:bg-black-500 before:absolute text-black">
-                  Melissa Amaral Souza Santos
-                </h1>
-              </Fade>
-              <img
-                className="w-full mt-10"
-                src="/vectors/vector_text.svg"
-                alt="imagem"
-              />
-            </div>
-
-            <Fade right>
-              <div className="flex-1 flex items-center justify-end mt-16 md:mt-0">
-                <img
-                  className="w-full h-full"
-                  src="/heros/marco_riveiros.svg"
-                  alt="Imagem do CEO da Resolv"
-                />
-              </div>
-            </Fade>
-          </div>
-        </div>
-
+        <About />
       </section>
-      <section className="bg-briefing h-auto py-72 bg-center bg-cover bg-no-repeat flex items-center">
-        
+
+
+      <section id="beginnerCourse" className='py-20 container'>
+        <div> SOBRE O CURSO<br /><br />
+1. Ideal tanto para iniciantes, que nunca tiveram contato com a técnica, quanto para profissionais que já realizaram um primeiro curso, mas encontram muitos problemas e dúvidas na hora de executar um bom trabalho.
+2. Certificado válido 
+3. Este curso não dá direito a desenvolvimento prático em modelos, portanto, cada aluna aplica a técnica nas próprias unhas.</div>
+      </section>
+      <section id="advancedCourse" className='py-20 container'>
+        <div>SOBRE O CURSO<br /><br />
+1. Ideal para Profissionais que já atuam na área e estão a procura de especialização e aprendizado de novas técnicas.
+2. Certificado válido 
+3. Este curso não dá direito a desenvolvimento prático em modelos, portanto, cada aluna aplica a técnica nas próprias unhas.</div>
+      </section>
+
+      <section className="bg-briefing h-auto py-20 bg-center bg-cover bg-no-repeat">
        <SwiperImage/>
       </section>
 

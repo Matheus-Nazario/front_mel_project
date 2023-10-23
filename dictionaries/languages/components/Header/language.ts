@@ -3,23 +3,23 @@ export const headerLanguage: any = {
     menu: [
       {
         title: 'Home',
-        url: '/',
+        url: 'home',
       },
       {
         title: 'Sobre',
-        url: '/pagina/sobre',
+        url: 'scrollCeo',
       },
       {
         title: 'Curso iniciante',
-        url: '/pagina/servicos',
+        url: 'beginnerCourse',
       },
       {
         title: 'Curso Avançado',
-        url: '/pagina/plataforma',
+        url: 'advancedCourse',
       },
       {
         title: 'Portfolio Unhas',
-        url: '/pagina/esg',
+        url: 'portfolio',
       },
     ],
 
