@@ -31,8 +31,8 @@ const About: React.FC = () => {
       <div className="flex-1 flex items-center justify-end mt-16 md:mt-0">
         <img
           className="w-full h-full"
-          src="/heros/marco_riveiros.svg"
-          alt="Imagem do CEO da Resolv"
+          src="/heros/mel_perfil.svg"
+          alt="Imagem da CEO"
         />
       </div>
     </Fade>

@@ -33,7 +33,7 @@ export function Header() {
     <header className="z-20 w-full fixed left-0 top-0 backdrop-blur  duration-200 border-b  bg-zinc-900/0 border-transparent">
       <div className="max-w-6xl mx-auto px-8 flex items-center justify-between h-[90px]">
         <Link href="/">
-          <img src="Logo_mel_png.png" alt="Logo" className="dark:opacity-50" width={150} />
+          <img src="Logo_mel.png" alt="Logo" className="dark:opacity-50" width={150} />
         </Link>
 
         <div className="flex items-center gap-4 lg:hidden">

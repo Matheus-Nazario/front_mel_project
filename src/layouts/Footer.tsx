@@ -65,15 +65,6 @@ export function Footer() {
                     priority
                   />
                 </a>
-                <a href="https://br.linkedin.com/company/resolvai">
-                  <Image
-                    src="/icons/linkedin-in.svg"
-                    alt="Logo da linkedin"
-                    width={25}
-                    height={18}
-                    priority
-                  />
-                </a>
                 <a href="mailto:atendimento@designer_mel_santos">
                   <Image
                     src="/icons/envelope.svg"
@@ -88,15 +79,6 @@ export function Footer() {
                     src="/icons/whatsapp.svg"
                     alt="Logo da whatsapp"
                     width={25}
-                    height={18}
-                    priority
-                  />
-                </a>
-                <a href="https://www.youtube.com/@resolv624">
-                  <Image
-                    src="/icons/youtube.svg"
-                    alt="Logo da youtube"
-                    width={34}
                     height={18}
                     priority
                   />

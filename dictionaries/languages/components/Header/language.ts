@@ -51,11 +51,6 @@ export const headerLanguage: any = {
         url: '/pagina/esg',
       },
     ],
-
-    actionButton: {
-      label: 'Login',
-      title: 'Click to login',
-    },
   },
   es: {
     menu: [

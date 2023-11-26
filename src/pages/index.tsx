@@ -22,7 +22,7 @@ export default function PageHome({ service }: HomeProps) {
   return (
     <>
       <Head>
-        <title>Início | Resolv AI inteligência em dados</title>
+        <title>Mel Nail Desing</title>
         <link rel="shortcut icon" href="/logos/LogoMel.svg" type="image/x-icon" />
       </Head>
 
@@ -31,7 +31,7 @@ export default function PageHome({ service }: HomeProps) {
           <div className="flex-1 md:flex-2 lg:flex-2">
             <Fade top>
               <img
-                src="Logo_mel_png.png"
+                src="Logo_mel.png"
                 alt="Logo"
                 style={{ width: '400px' }}
               />
@@ -82,13 +82,14 @@ export default function PageHome({ service }: HomeProps) {
 
 
       <section id="beginnerCourse" className='py-20 container'>
-        <div> SOBRE O CURSO<br /><br />
+        <div> Sobre o Cursos Iniciantes<br /><br />
 1. Ideal tanto para iniciantes, que nunca tiveram contato com a técnica, quanto para profissionais que já realizaram um primeiro curso, mas encontram muitos problemas e dúvidas na hora de executar um bom trabalho.
 2. Certificado válido 
 3. Este curso não dá direito a desenvolvimento prático em modelos, portanto, cada aluna aplica a técnica nas próprias unhas.</div>
       </section>
+      
       <section id="advancedCourse" className='py-20 container'>
-        <div>SOBRE O CURSO<br /><br />
+        <div>Sobre o Curso Avançado<br /><br />
 1. Ideal para Profissionais que já atuam na área e estão a procura de especialização e aprendizado de novas técnicas.
 2. Certificado válido 
 3. Este curso não dá direito a desenvolvimento prático em modelos, portanto, cada aluna aplica a técnica nas próprias unhas.</div>
