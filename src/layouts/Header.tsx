@@ -93,7 +93,7 @@ export function Header() {
           })}
         </div>
         <div className="flex flex-row  gap-4">
-                <a href="https://www.facebook.com/resolvai">
+                <a href="https://www.facebook.com/melissa.santos.1069020?mibextid=2JQ9oc">
                   <Image
                     src="/icons/facebook-f.svg"
                     alt="Logo do facebook"
@@ -121,7 +121,7 @@ export function Header() {
                     priority
                   />
                 </a>
-                <a href="https://api.whatsapp.com/send?phone=551340429800&text=Ol%C3%A1!%20%0A%0AObrigado%20por%20entrar%20em%20contato%20com%20a%20Resolv.%20Recebemos%20sua%20mensagem%20atrav%C3%A9s%20do%20nosso%20site.%20Como%20podemos%20ajudar?%0A%0AAtenciosamente,%0AEquipe%20Resolv">
+                <a href="https://api.whatsapp.com/message/JKMNRU2U3J77E1?autoload=1&app_absent=0">
                   <Image
                     src="/icons/whatsapp.svg"
                     alt="Logo da whatsapp"

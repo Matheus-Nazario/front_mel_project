@@ -35,7 +35,7 @@ export default function PageHome({ service }: HomeProps) {
                 alt="Logo"
                 style={{ width: '400px' }}
               />
-            </Fade>h-auto py-28
+            </Fade>
             <Fade top>
               <ScrollLink
                 to="scrollCeo"
