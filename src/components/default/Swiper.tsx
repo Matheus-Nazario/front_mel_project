@@ -96,10 +96,10 @@ const SwiperImage: React.FC = () => {
           </SwiperSlide>
           <div id="container-nav">
           <div className="swiper-button-prev-custom">
-          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><polyline points="48 160 128 80 208 160" fill="none" stroke="currentColor" strokeLinecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><polyline points="48 160 128 80 208 160" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" stroke-width="16"></polyline></svg>
           </div>
           <div className="swiper-button-next-custom">
-          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><polyline points="48 160 128 80 208 160" fill="none" stroke="currentColor" strokeLinecap="round" stroke-linejoin="round" stroke-width="16"></polyline></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"></rect><polyline points="48 160 128 80 208 160" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" stroke-width="16"></polyline></svg>
           </div>
         </div>
       </Swiper>
