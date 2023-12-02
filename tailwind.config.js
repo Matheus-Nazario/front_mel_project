@@ -6,14 +6,12 @@ module.exports = {
       backgroundImage: {
         banner: 'url(/backgrounds/mel_blackground.jpeg)',
         sobre: 'url(/backgrounds/sobreMel.PNG)',
-        sobreMel: 'url(/backgrounds/mel.png)',
-        testimonial: 'url(/backgrounds/testimonial_background.svg)',
-        about: 'url(/backgrounds/about_background.svg)',
-        client: 'url(/backgrounds/clients_background.svg)',
-        briefing: 'url(/backgrounds/briefing_background.svg)',
-        footer: 'url(/backgrounds/footer_background_v2.svg)',
-        espmCard: 'url(/backgrounds/EspmHome.png)',
-        unicardioCard: 'url(/backgrounds/UnicardioHome.png)',
+        // sobreMel: 'url(/backgrounds/mel.png)',
+        // testimonial: 'url(/backgrounds/testimonial_background.svg)',
+        // about: 'url(/backgrounds/about_background.svg)',
+        // client: 'url(/backgrounds/clients_background.svg)',
+        // briefing: 'url(/backgrounds/briefing_background.svg)',
+        // footer: 'url(/backgrounds/footer_background_v2.svg)',
 
       },
 

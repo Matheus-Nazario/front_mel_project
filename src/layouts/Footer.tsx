@@ -9,7 +9,7 @@ export function Footer() {
   return (
     <footer>
       <div className="bg-red w-full">
-        <div className="bg-footer bg-bottom bg-cover bg-no-repeat text-white">
+        <div className="bg-bottom bg-cover bg-no-repeat text-white">
           <div className="max-w-6xl mx-auto px-8 grid grid-cols-1 md:grid-cols-4 gap-6 py-16">
             <div className="max-w-6xl  self-start flex-col mx-auto mt-[-72px] flex  gap-6 ">
               <Logo width={120} />

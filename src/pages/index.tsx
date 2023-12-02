@@ -95,7 +95,7 @@ export default function PageHome({ service }: HomeProps) {
 3. Este curso não dá direito a desenvolvimento prático em modelos, portanto, cada aluna aplica a técnica nas próprias unhas.</div>
       </section>
 
-      <section className="bg-briefing h-auto py-20 bg-center bg-cover bg-no-repeat">
+      <section className=" h-auto py-20 bg-center bg-cover bg-no-repeat">
        <SwiperImage/>
       </section>
 
