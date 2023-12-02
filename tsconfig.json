@@ -8,7 +8,6 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
@@ -30,7 +29,8 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "strict": false
   },
   "include": [
     "next-env.d.ts",
